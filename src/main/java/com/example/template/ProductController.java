@@ -24,7 +24,7 @@ public class ProductController {
 
     @GetMapping("/product/{productId}")
     Product productStockCheck2(@PathVariable(value = "productId") Long productId) {
-
+ 
     }
     
     @PostMapping("/product")
